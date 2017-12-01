@@ -1,0 +1,31 @@
+﻿Build started 7/29/2014 1:22:49 AM.
+     1>Project "D:\documents\Visual Studio 2012\Projects\Win32Project6\Win32Project6\Win32Project6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Win32Project6.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Win32Project6.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Win32Project6.cpp
+         Win32Project6.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Win32Project6.res" Win32Project6.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\documents\Visual Studio 2012\Projects\Win32Project6\Debug\Win32Project6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\documents\Visual Studio 2012\Projects\Win32Project6\Debug\Win32Project6.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\documents\Visual Studio 2012\Projects\Win32Project6\Debug\Win32Project6.lib" /MACHINE:X86 Debug\Win32Project6.res
+         Debug\stdafx.obj
+         Debug\Win32Project6.obj
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__wglCreateContext@4 referenced in function "void __cdecl EnableOpenGL(struct HWND__ *,struct HDC__ * *,struct HGLRC__ * *)" (?EnableOpenGL@@YAXPAUHWND__@@PAPAUHDC__@@PAPAUHGLRC__@@@Z)
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__wglDeleteContext@4 referenced in function "void __cdecl DisableOpenGL(struct HWND__ *,struct HDC__ *,struct HGLRC__ *)" (?DisableOpenGL@@YAXPAUHWND__@@PAUHDC__@@PAUHGLRC__@@@Z)
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__wglMakeCurrent@8 referenced in function "void __cdecl DisableOpenGL(struct HWND__ *,struct HDC__ *,struct HGLRC__ *)" (?DisableOpenGL@@YAXPAUHWND__@@PAUHDC__@@PAUHGLRC__@@@Z)
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glBegin@4 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glColor3f@12 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glEnd@0 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glPopMatrix@0 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glPushMatrix@0 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glRotatef@16 referenced in function _WinMain@16
+     1>Win32Project6.obj : error LNK2019: unresolved external symbol __imp__glVertex2f@8 referenced in function _WinMain@16
+     1>D:\documents\Visual Studio 2012\Projects\Win32Project6\Debug\Win32Project6.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "D:\documents\Visual Studio 2012\Projects\Win32Project6\Win32Project6\Win32Project6.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.40
